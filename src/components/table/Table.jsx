@@ -1,5 +1,5 @@
-import './table.scss';
 import React from 'react';
+import './table.scss';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -8,7 +8,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-const Table = () => {
+const List = () => {
   const rows = [
     {
       id: 1143155,
@@ -100,4 +100,4 @@ const Table = () => {
   );
 };
 
-export default Table;
+export default List;
